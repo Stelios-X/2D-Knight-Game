@@ -443,4 +443,4 @@ zoom = Vector2(4, 4)
 position_smoothing_enabled = true
 
 [node name="Platform" parent="." instance=ExtResource("3_pvnj8")]
-position = Vector2(-9, -27)
+position = Vector2(16, -26)
