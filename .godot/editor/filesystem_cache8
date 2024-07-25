@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721810726
+::res://::1721915744
 icon.svg::CompressedTexture2D::6473102148752349368::1721476930::1721560282::1::::<><>::
 ::res://assets/::1721477383
 ::res://assets/fonts/::1721560282
@@ -22,11 +22,13 @@ platforms.png::CompressedTexture2D::8230085326936566901::1721477383::1721560282:
 slime_green.png::CompressedTexture2D::3176700238531185607::1721477383::1721560282::1::::<><>::
 slime_purple.png::CompressedTexture2D::2793509322925211152::1721477383::1721560282::1::::<><>::
 world_tileset.png::CompressedTexture2D::2812972138297059457::1721477383::1721560282::1::::<><>::
-::res://scenes/::1721696773
-coin.tscn::PackedScene::1174977263411280340::1721696773::0::1::::<><>::uid://c7dbd0xxjr0up::::res://assets/sprites/coin.png<>res://scripts/coin.gd
-games.tscn::PackedScene::469374296818343::1721696773::0::1::::<><>::uid://ci0r7g731fug8::::res://scenes/player.tscn<>uid://bgcvifumhww5n::::res://assets/sprites/world_tileset.png<>uid://0ya1d1rwllbm::::res://scenes/platform.tscn<>uid://q0fx6wuhahjw::::res://scenes/coin.tscn
-platform.tscn::PackedScene::1804312786226983474::1721696773::0::1::::<><>::uid://dpiykkflxur5f::::res://assets/sprites/platforms.png
-player.tscn::PackedScene::5387051260504940805::1721696773::0::1::::<><>::res://scripts/player.gd<>uid://d3edijcv4xupc::::res://assets/sprites/knight.png
-::res://scripts/::1721675611
+::res://scenes/::1721915627
+coin.tscn::PackedScene::1174977263411280340::1721915627::0::1::::<><>::uid://c7dbd0xxjr0up::::res://assets/sprites/coin.png<>res://scripts/coin.gd
+games.tscn::PackedScene::469374296818343::1721915627::0::1::::<><>::uid://ci0r7g731fug8::::res://scenes/player.tscn<>uid://bgcvifumhww5n::::res://assets/sprites/world_tileset.png<>uid://0ya1d1rwllbm::::res://scenes/platform.tscn<>uid://q0fx6wuhahjw::::res://scenes/coin.tscn<>uid://c5qv8y14n66kf::::res://scenes/killzone.tscn
+killzone.tscn::PackedScene::6912872010700659901::1721915627::0::1::::<><>::res://scripts/killzone.gd
+platform.tscn::PackedScene::1804312786226983474::1721915627::0::1::::<><>::uid://dpiykkflxur5f::::res://assets/sprites/platforms.png
+player.tscn::PackedScene::5387051260504940805::1721915627::0::1::::<><>::res://scripts/player.gd<>uid://d3edijcv4xupc::::res://assets/sprites/knight.png
+::res://scripts/::1721915604
 coin.gd::GDScript::-1::1721675611::0::1::::<>Area2D<>::
+killzone.gd::GDScript::-1::1721915604::0::1::::<>Area2D<>::
 player.gd::GDScript::-1::1721552513::0::1::::<>CharacterBody2D<>::
