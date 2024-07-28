@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://d81igwi2xajb"]
+[gd_scene load_steps=10 format=3 uid="uid://d81igwi2xajb"]
 
+[ext_resource type="Script" path="res://scripts/slime.gd" id="1_ctwyr"]
 [ext_resource type="Texture2D" uid="uid://bli2124jb0hox" path="res://assets/sprites/slime_green.png" id="1_pn6nl"]
 [ext_resource type="PackedScene" uid="uid://c5qv8y14n66kf" path="res://scenes/killzone.tscn" id="2_8ds15"]
 
@@ -43,6 +44,7 @@ animations = [{
 size = Vector2(10, 13)
 
 [node name="Slime" type="Node2D"]
+script = ExtResource("1_ctwyr")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_e8vub")
