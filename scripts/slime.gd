@@ -1,6 +1,6 @@
 extends Node2D
-
+const SPEED = 60
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	position.x += 1
+	position.x += SPEED * delta	#This means that we're moving at SPEED px per sec	
