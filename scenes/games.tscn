@@ -528,4 +528,4 @@ libraries = {
 autoplay = "move"
 
 [node name="Slime" parent="." instance=ExtResource("6_5v3p1")]
-position = Vector2(665, 69)
+position = Vector2(648, 67)
