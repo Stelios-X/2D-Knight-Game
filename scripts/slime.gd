@@ -13,5 +13,5 @@ func _process(delta):
 		animated_sprite.flip_h = true
 	if ray_cast_left.is_colliding():	
 		direction = 1
-		animated_sprite.flip_h = false			
+		animated_sprite.flip_h = false				
 	position.x += direction * SPEED * delta	#This means that we're moving at SPEED px			 per sec	
