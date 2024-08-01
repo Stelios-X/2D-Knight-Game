@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://hy3quk0fud"]
+[gd_scene load_steps=14 format=3 uid="uid://hy3quk0fud"]
 
 [ext_resource type="PackedScene" uid="uid://ci0r7g731fug8" path="res://scenes/player.tscn" id="1_20vkc"]
 [ext_resource type="Texture2D" uid="uid://bgcvifumhww5n" path="res://assets/sprites/world_tileset.png" id="2_uw2s0"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://q0fx6wuhahjw" path="res://scenes/coin.tscn" id="4_nnjg2"]
 [ext_resource type="PackedScene" uid="uid://c5qv8y14n66kf" path="res://scenes/killzone.tscn" id="5_okadi"]
 [ext_resource type="PackedScene" uid="uid://d81igwi2xajb" path="res://scenes/slime.tscn" id="6_5v3p1"]
+[ext_resource type="FontFile" uid="uid://p8jiiydiweap" path="res://assets/fonts/PixelOperator8.ttf" id="7_13ciu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dd84w"]
 texture = ExtResource("2_uw2s0")
@@ -529,3 +530,36 @@ autoplay = "move"
 
 [node name="Slime" parent="." instance=ExtResource("6_5v3p1")]
 position = Vector2(648, 67)
+
+[node name="Labels" type="Node2D" parent="."]
+position = Vector2(-129, -39)
+
+[node name="Label2" type="Label" parent="Labels"]
+offset_left = 518.0
+offset_top = 60.0
+offset_right = 628.0
+offset_bottom = 105.0
+theme_override_colors/font_color = Color(0.263427, 0.0915133, 0.506037, 0.87451)
+theme_override_fonts/font = ExtResource("7_13ciu")
+theme_override_font_sizes/font_size = 8
+text = "Careful..."
+
+[node name="Label" type="Label" parent="Labels"]
+offset_left = 11.0
+offset_top = 62.0
+offset_right = 121.0
+offset_bottom = 107.0
+theme_override_colors/font_color = Color(0.263427, 0.0915133, 0.506037, 0.87451)
+theme_override_fonts/font = ExtResource("7_13ciu")
+theme_override_font_sizes/font_size = 8
+text = "Let's begin"
+
+[node name="Label3" type="Label" parent="Labels"]
+offset_left = 1010.0
+offset_top = -59.0
+offset_right = 1120.0
+offset_bottom = -14.0
+theme_override_colors/font_color = Color(0.263427, 0.0915133, 0.506037, 0.87451)
+theme_override_fonts/font = ExtResource("7_13ciu")
+theme_override_font_sizes/font_size = 8
+text = "Almost there!"
