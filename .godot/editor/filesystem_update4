@@ -6,3 +6,4 @@ res://scenes/coin.tscn
 res://scenes/killzone.tscn
 res://scenes/slime.tscn
 res://default_bus_layout.tres
+res://scripts/coin.gd
